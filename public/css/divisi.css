@@ -1,0 +1,29 @@
+.header-wrapper {
+  position: relative;
+  display: flex;
+  justify-content: center; /* center teks */
+  align-items: center;
+  height: 80px; /* atur tinggi sesuai kebutuhan */
+  margin-bottom: 20px;
+}
+
+.backbutton {
+  position: absolute;
+  left: 20px; /* posisi di ujung kiri */
+  display: flex;
+  align-items: center;
+}
+
+.divisi {
+  background-color: #cdeffd;
+  color: #003e5e;
+  font-size: 40px;
+  font-weight: bold;
+  padding: 10px 60px;
+  border-radius: 12px;
+  display: inline-block;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+}
+
+  

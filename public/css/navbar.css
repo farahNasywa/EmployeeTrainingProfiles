@@ -1,0 +1,98 @@
+/* .component .header .logo .title .subtitle .nav .nav-item .search-box .search-text .divider */
+
+.component {
+    width: auto;
+}
+
+.header {
+    position: relative;
+    background-color: #fff;
+    height: 118px;
+    padding: 2px;
+}
+
+.logo {
+    height: 50px;
+    object-fit: cover;
+}
+
+.title {
+    font-weight: 800;
+    font-family: "Poppins-ExtraBold", Helvetica;
+    color: #0f3387;
+    margin-top: -60px;
+    margin-left: 210px;
+}
+
+.subtitle {
+    font-size: 10px;
+    font-weight: 800;
+    color: #0f3387;
+    margin-top: -8px;
+    margin-left: 25px;
+}
+
+.nav {
+    display: flex;
+    gap: -10px;
+    margin-top: 17px;
+}
+
+@media (min-width: 768px) {
+    .nav {
+        margin-top: 5px;
+    }
+}
+
+.nav-item {
+    background-color: #f4f6f9;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-size: 15px;
+    color: #62727a;
+    margin-left: 70px;
+    cursor: pointer;
+}
+
+/* Update search box styles */
+.search-box {
+    background-color: #f4f6f9;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    padding: 1px 20px;
+    width: 230px;
+    height: 50px;
+    margin-top: -80px;
+    margin-right: 20px;
+    transition: width 0.3s ease; /* Tambahkan animasi */
+}
+
+@media (min-width: 768px) {
+    .search-box {
+        width: 270px;
+    }
+}
+
+/* Update search text styles */
+.search-text {
+    font-size: 16px;  /* Lebih besar agar mudah dibaca */
+    font-family: "Inter-Regular", Helvetica;
+    color: #333; /* Menyesuaikan dengan warna utama */
+    border: none;
+    background-color: transparent;
+    outline: none;
+    flex-grow: 1;  /* Mengambil sisa ruang di search box */
+    padding-left: 10px;  /* Memberikan ruang kiri untuk teks */
+}
+
+.search-text::placeholder {
+    color: #8ba3cb;  /* Placeholder lebih terang */
+    font-size: 14px;
+}
+
+.divider {
+    height: 6px;
+    background-color: #e5eef4;
+    box-shadow: 0px 4px 4px #00000040;
+}

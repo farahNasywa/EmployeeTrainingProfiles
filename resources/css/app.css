@@ -1,0 +1,5 @@
+/* Mengimpor Preflight (reset CSS) */
+@import "tailwindcss/preflight";
+
+/* Mengimpor utilities (termasuk komponen dan utilitas lainnya) */
+@tailwind utilities;
